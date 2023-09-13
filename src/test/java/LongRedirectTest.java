@@ -23,6 +23,7 @@ public class LongRedirectTest {
              statusCode = response.getStatusCode();
              i = i+1;
          }
+
          System.out.println("Number of redirects = " + (i-1));
     }
 }
